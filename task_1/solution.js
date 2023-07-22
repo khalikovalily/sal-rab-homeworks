@@ -42,8 +42,10 @@ function addInCartCountChange(value) {
 function addInCartSumChange(sum, delta) {
     let oldSum = sum;
     let difference = delta;
-    let newSum = (sum + delta);
-    let newSumText = "(newSum title за price теперь в корзине!"
+    let newSum 
+    newSum = (sum + delta);
+    let newSumText 
+    newSumText = newSum + "₽";
 
     // Задание №1.3. Увеличение суммы в корзине
 
